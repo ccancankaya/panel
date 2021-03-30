@@ -1,0 +1,36 @@
+.ana{
+    width:100%;
+    align-items: center;
+    text-align: center;
+    color: rgb(247, 248, 250);
+
+}
+.bir{
+
+    width:50%;
+    height:150px;
+    background: linear-gradient(
+120deg
+, rgb(0, 0, 0), rgb(0, 0, 0));
+
+}
+
+.iki{
+    width:50%;
+    height:150px;
+    background: linear-gradient(
+120deg
+, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.alt{
+    width:100%;
+    height:150px;
+    color: rgb(247, 248, 250);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(
+        120deg
+        , rgb(66, 154, 67), rgb(111, 183, 87));
+}

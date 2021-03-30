@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+@import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
+body{
+    background-color: var(--surface-0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info{
+    background: #343e4d;
+    padding:10px;
+    color: #C7D0D9;
+    font-size: 14px;
+    font-family: roboto, arial, helvetica;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.one{
+    width:15%;
+    background: #343e4d;
+    height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.two{
+    width:85%;
+    background: #343e4d;
 }
 
-.App-link {
-  color: #61dafb;
+.three{
+    width:20%;
+    background: #343e4d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col2{
+    width:65%;
+    background: #343e4d;
+}
+
+.fullGraph{
+    background: #343e4d;
+    height:260px;
+}
+/* .col1{
+    width:15%;
+    background-color: #343e4d;
+}
+
+.col2{
+  
+    background-color:red;
+}
+
+.col3{
+  
+} */
+
+.second{
+    background: linear-gradient(
+120deg
+, rgb(194, 168, 21), rgb(232, 149, 34));
+}
+
+.birinci{
+    display:block;
+    width:100%;
+    height: 100px;
+    background: linear-gradient(
+120deg
+, rgb(223, 20, 16), rgb(240, 49, 96));
+}
+
+.ikinci{
+    display:block;
+    width:100%;
+    height:100px;
+    background: linear-gradient(
+        120deg
+        , rgb(194, 168, 21), rgb(232, 149, 34));
 }
