@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import './app.css';
+import './App.css';
 
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
