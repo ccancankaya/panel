@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useState } from 'react'
 
 import './App.css';
+
 
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
@@ -36,7 +38,9 @@ const App = ()=>{
                     <div className="p-d-inline-flex one p-mr-2">
                         <Triple/>
                     </div>
-                    <div className="p-d-inline-flex two">Inline Flex Container</div>
+                    <div className="p-d-inline-flex two">
+                    <iframe style={{width:'100%',height:'100%'}} src="https://services.vivavis.com/live-dashboard/d-solo/_Qd3n_EMz/datenqualitat?orgId=1&refresh=15m&kiosk&from=1616996844101&to=1617169644101&theme=dark&panelId=2"  frameborder="0"></iframe>
+                    </div>
                 </div>
                 <div className="p-d-flex p-mt-2">
                     <div className="p-d-inline-flex one p-mr-2 second">Inline Flex Container</div>

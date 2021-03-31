@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Menubar } from 'primereact/menubar';
+import Logo from '../header-logo-min.svg'
 
 const Navbar = ({onSetVisible}) => {
 
@@ -23,7 +24,7 @@ const Navbar = ({onSetVisible}) => {
 
 
 
-    const start = <img alt="logo" src="../header-logo-min.svg"  height="40" className="p-mr-2"></img>;
+    const start = <img alt="logo" src={Logo}  height="40" className="p-mr-2"></img>;
     const end = <div>sad</div>;
 
     return (
